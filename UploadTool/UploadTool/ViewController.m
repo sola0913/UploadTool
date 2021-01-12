@@ -249,7 +249,8 @@ NSString *logsPath = @"/vault/";       // Setup when running GH
         [self.showNumber setStringValue:@""];
         [self.serialNumber becomeFirstResponder];
         fileHandle = [NSFileHandle fileHandleForWritingAtPath:filePath];
-        
+        [self getPDCAHandle];
+
 //        NSLog(@"print the self.resultItem:%@",self.resultItem);
 //        [self.resultItem enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
 //            NSLog(@"print the key and value:%@,%@",key,obj);
@@ -311,9 +312,8 @@ NSString *logsPath = @"/vault/";       // Setup when running GH
 
     
     //upload pdca
-    OVitem *item = [[OVitem alloc] init];
+    //OVitem *item = [[OVitem alloc] init];
     
-    [self getPDCAHandle];
     [self _insertAttribute];
     //[self _PDCA_START_PHASE];
     [self _PDCA_END_PHASE];
