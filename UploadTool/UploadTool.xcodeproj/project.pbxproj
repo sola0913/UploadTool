@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		923B8472258728AD00AB077D /* libCBAuth.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = C490F1B6257A2D43002CAC9D /* libCBAuth.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		923B8474258728B100AB077D /* libInstantPudding.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = C490F1B4257A2D43002CAC9D /* libInstantPudding.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		923B8475258728B300AB077D /* libIPSFCPost.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = C490F1B5257A2D43002CAC9D /* libIPSFCPost.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		923B847C2589E8DA00AB077D /* PDCA.m in Sources */ = {isa = PBXBuildFile; fileRef = 923B847B2589E8DA00AB077D /* PDCA.m */; };
+		923B8480258B186A00AB077D /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = 923B847F258B186A00AB077D /* File.m */; };
+		923B8482258B189A00AB077D /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 923B8481258B189A00AB077D /* Common.m */; };
+		923B8486258B18DB00AB077D /* Connect.m in Sources */ = {isa = PBXBuildFile; fileRef = 923B8485258B18DB00AB077D /* Connect.m */; };
+		923B8489258B190B00AB077D /* InstantPuddingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 923B8488258B190B00AB077D /* InstantPuddingWrapper.m */; };
+		923B84CF25939AF700AB077D /* OVitem.m in Sources */ = {isa = PBXBuildFile; fileRef = 923B84CD25939AF700AB077D /* OVitem.m */; };
+		923B84D125939B0800AB077D /* testItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = 923B84D025939B0800AB077D /* testItem.plist */; };
+		923B84DB259613D600AB077D /* baseInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 923B84DA259613D600AB077D /* baseInfo.plist */; };
+		923B84E02597261900AB077D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923B84DE2597261900AB077D /* Main.storyboard */; };
+		C48F60CB257649C800BDCC28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C48F60CA257649C800BDCC28 /* AppDelegate.m */; };
+		C48F60CE257649C800BDCC28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48F60CD257649C800BDCC28 /* ViewController.m */; };
+		C48F60D0257649CB00BDCC28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48F60CF257649CB00BDCC28 /* Assets.xcassets */; };
+		C48F60D6257649CB00BDCC28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48F60D5257649CB00BDCC28 /* main.m */; };
+		C490F1B7257A2D43002CAC9D /* libInstantPudding.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C490F1B4257A2D43002CAC9D /* libInstantPudding.dylib */; };
+		C490F1BC257A2EED002CAC9D /* PDCAPudding.m in Sources */ = {isa = PBXBuildFile; fileRef = C490F1BB257A2EED002CAC9D /* PDCAPudding.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		923B8473258728AD00AB077D /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				923B8475258728B300AB077D /* libIPSFCPost.dylib in Embed Libraries */,
+				923B8474258728B100AB077D /* libInstantPudding.dylib in Embed Libraries */,
+				923B8472258728AD00AB077D /* libCBAuth.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		923B847A2589E8B000AB077D /* PDCA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDCA.h; sourceTree = "<group>"; };
+		923B847B2589E8DA00AB077D /* PDCA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDCA.m; sourceTree = "<group>"; };
+		923B847E258B185B00AB077D /* File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		923B847F258B186A00AB077D /* File.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		923B8481258B189A00AB077D /* Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		923B8483258B18AE00AB077D /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		923B8484258B18CC00AB077D /* Connect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connect.h; sourceTree = "<group>"; };
+		923B8485258B18DB00AB077D /* Connect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Connect.m; sourceTree = "<group>"; };
+		923B8487258B18FE00AB077D /* InstantPuddingWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstantPuddingWrapper.h; sourceTree = "<group>"; };
+		923B8488258B190B00AB077D /* InstantPuddingWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstantPuddingWrapper.m; sourceTree = "<group>"; };
+		923B84CD25939AF700AB077D /* OVitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OVitem.m; path = UploadTool/OVitem.m; sourceTree = SOURCE_ROOT; };
+		923B84CE25939AF700AB077D /* OVitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OVitem.h; path = UploadTool/OVitem.h; sourceTree = SOURCE_ROOT; };
+		923B84D025939B0800AB077D /* testItem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = testItem.plist; sourceTree = "<group>"; };
+		923B84DA259613D600AB077D /* baseInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = baseInfo.plist; sourceTree = "<group>"; };
+		923B84DF2597261900AB077D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C48F60C6257649C800BDCC28 /* UploadTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UploadTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48F60C9257649C800BDCC28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C48F60CA257649C800BDCC28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C48F60CC257649C800BDCC28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C48F60CD257649C800BDCC28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C48F60CF257649CB00BDCC28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C48F60D5257649CB00BDCC28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C48F60D7257649CB00BDCC28 /* UploadTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UploadTool.entitlements; sourceTree = "<group>"; };
+		C490F1A3257A2C36002CAC9D /* IPSFCPost_API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPSFCPost_API.h; sourceTree = "<group>"; };
+		C490F1A4257A2C36002CAC9D /* CBAuth_API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAuth_API.h; sourceTree = "<group>"; };
+		C490F1A5257A2C36002CAC9D /* InstantPudding_API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstantPudding_API.h; sourceTree = "<group>"; };
+		C490F1B4257A2D43002CAC9D /* libInstantPudding.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libInstantPudding.dylib; path = UploadTool/dylibs/libInstantPudding.dylib; sourceTree = "<group>"; };
+		C490F1B5257A2D43002CAC9D /* libIPSFCPost.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIPSFCPost.dylib; path = UploadTool/dylibs/libIPSFCPost.dylib; sourceTree = "<group>"; };
+		C490F1B6257A2D43002CAC9D /* libCBAuth.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCBAuth.dylib; path = UploadTool/dylibs/libCBAuth.dylib; sourceTree = "<group>"; };
+		C490F1BA257A2EED002CAC9D /* PDCAPudding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDCAPudding.h; sourceTree = "<group>"; };
+		C490F1BB257A2EED002CAC9D /* PDCAPudding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDCAPudding.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C48F60C3257649C800BDCC28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C490F1B7257A2D43002CAC9D /* libInstantPudding.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C42852AD25A09CC80069DCA6 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C48F60BD257649C800BDCC28 = {
+			isa = PBXGroup;
+			children = (
+				C48F60C8257649C800BDCC28 /* UploadTool */,
+				C48F60C7257649C800BDCC28 /* Products */,
+				C490F1A7257A2C8C002CAC9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C48F60C7257649C800BDCC28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C48F60C6257649C800BDCC28 /* UploadTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48F60C8257649C800BDCC28 /* UploadTool */ = {
+			isa = PBXGroup;
+			children = (
+				C490F1A6257A2C4C002CAC9D /* customerAPI */,
+				C490F1BA257A2EED002CAC9D /* PDCAPudding.h */,
+				C42852AD25A09CC80069DCA6 /* New Group */,
+				C490F1BB257A2EED002CAC9D /* PDCAPudding.m */,
+				C48F60C9257649C800BDCC28 /* AppDelegate.h */,
+				C48F60CA257649C800BDCC28 /* AppDelegate.m */,
+				923B84D025939B0800AB077D /* testItem.plist */,
+				C48F60CC257649C800BDCC28 /* ViewController.h */,
+				C48F60CD257649C800BDCC28 /* ViewController.m */,
+				923B84DA259613D600AB077D /* baseInfo.plist */,
+				C48F60CF257649CB00BDCC28 /* Assets.xcassets */,
+				923B84DE2597261900AB077D /* Main.storyboard */,
+				C48F60D5257649CB00BDCC28 /* main.m */,
+				C48F60D7257649CB00BDCC28 /* UploadTool.entitlements */,
+			);
+			path = UploadTool;
+			sourceTree = "<group>";
+		};
+		C490F1A6257A2C4C002CAC9D /* customerAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C490F1A4257A2C36002CAC9D /* CBAuth_API.h */,
+				C490F1A5257A2C36002CAC9D /* InstantPudding_API.h */,
+				C490F1A3257A2C36002CAC9D /* IPSFCPost_API.h */,
+				923B847A2589E8B000AB077D /* PDCA.h */,
+				923B847B2589E8DA00AB077D /* PDCA.m */,
+				923B847E258B185B00AB077D /* File.h */,
+				923B847F258B186A00AB077D /* File.m */,
+				923B8487258B18FE00AB077D /* InstantPuddingWrapper.h */,
+				923B8488258B190B00AB077D /* InstantPuddingWrapper.m */,
+				923B8483258B18AE00AB077D /* Common.h */,
+				923B8481258B189A00AB077D /* Common.m */,
+				923B84CE25939AF700AB077D /* OVitem.h */,
+				923B84CD25939AF700AB077D /* OVitem.m */,
+				923B8484258B18CC00AB077D /* Connect.h */,
+				923B8485258B18DB00AB077D /* Connect.m */,
+			);
+			path = customerAPI;
+			sourceTree = "<group>";
+		};
+		C490F1A7257A2C8C002CAC9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C490F1B6257A2D43002CAC9D /* libCBAuth.dylib */,
+				C490F1B4257A2D43002CAC9D /* libInstantPudding.dylib */,
+				C490F1B5257A2D43002CAC9D /* libIPSFCPost.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C48F60C5257649C800BDCC28 /* UploadTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48F60DA257649CB00BDCC28 /* Build configuration list for PBXNativeTarget "UploadTool" */;
+			buildPhases = (
+				C48F60C2257649C800BDCC28 /* Sources */,
+				C48F60C3257649C800BDCC28 /* Frameworks */,
+				C48F60C4257649C800BDCC28 /* Resources */,
+				923B8473258728AD00AB077D /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UploadTool;
+			productName = UploadTool;
+			productReference = C48F60C6257649C800BDCC28 /* UploadTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C48F60BE257649C800BDCC28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Peter;
+				TargetAttributes = {
+					C48F60C5257649C800BDCC28 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C48F60C1257649C800BDCC28 /* Build configuration list for PBXProject "UploadTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C48F60BD257649C800BDCC28;
+			productRefGroup = C48F60C7257649C800BDCC28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C48F60C5257649C800BDCC28 /* UploadTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C48F60C4257649C800BDCC28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923B84D125939B0800AB077D /* testItem.plist in Resources */,
+				C48F60D0257649CB00BDCC28 /* Assets.xcassets in Resources */,
+				923B84DB259613D600AB077D /* baseInfo.plist in Resources */,
+				923B84E02597261900AB077D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C48F60C2257649C800BDCC28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923B847C2589E8DA00AB077D /* PDCA.m in Sources */,
+				C48F60CE257649C800BDCC28 /* ViewController.m in Sources */,
+				C48F60D6257649CB00BDCC28 /* main.m in Sources */,
+				923B8489258B190B00AB077D /* InstantPuddingWrapper.m in Sources */,
+				C48F60CB257649C800BDCC28 /* AppDelegate.m in Sources */,
+				C490F1BC257A2EED002CAC9D /* PDCAPudding.m in Sources */,
+				923B8480258B186A00AB077D /* File.m in Sources */,
+				923B8486258B18DB00AB077D /* Connect.m in Sources */,
+				923B8482258B189A00AB077D /* Common.m in Sources */,
+				923B84CF25939AF700AB077D /* OVitem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		923B84DE2597261900AB077D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923B84DF2597261900AB077D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C48F60D8257649CB00BDCC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C48F60D9257649CB00BDCC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C48F60DB257649CB00BDCC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.framework *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.dylib";
+				INFOPLIST_FILE = UploadTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/Users/PeterWang/Desktop/Test_Function/Tool/UploadTool/UploadTool/dylibs,
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = FunctionTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C48F60DC257649CB00BDCC28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.framework *.gch *.xcode* *.xcassets (*) .DS_Store CVS .svn .git .hg *.pbproj *.pbxproj *.dylib";
+				INFOPLIST_FILE = UploadTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/Users/PeterWang/Desktop/Test_Function/Tool/UploadTool/UploadTool/dylibs,
+					/usr/local/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = FunctionTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C48F60C1257649C800BDCC28 /* Build configuration list for PBXProject "UploadTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48F60D8257649CB00BDCC28 /* Debug */,
+				C48F60D9257649CB00BDCC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48F60DA257649CB00BDCC28 /* Build configuration list for PBXNativeTarget "UploadTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48F60DB257649CB00BDCC28 /* Debug */,
+				C48F60DC257649CB00BDCC28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C48F60BE257649C800BDCC28 /* Project object */;
+}
