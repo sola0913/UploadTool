@@ -1,0 +1,38 @@
+# Mac OS X
+*.DS_Store
+ 
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+# for shared data setting
+!*.xcodeproj/xcshareddata
+.idea/
+
+ 
+# Generated files
+*.o
+ 
+# Backup files
+*~.nib
+
+build/
+build/*
+Build/
+Build/*
+frameworks/
+frameworks/*
+Frameworks/
+Frameworks/*
+Index/*
+Log/Log/*.m
+Module/Module/*.m
+HardwareService/HardwareService/*.m
+CommonSetting/CommonSetting/*.m
+,@()1/*
